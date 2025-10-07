@@ -1,70 +1,51 @@
-# 📦 Logistics Customer Service Analysis (一路發集運客服分析)
+# 📂 Data & AI Portfolio | 資料與人工智慧作品集
 
-This mock project simulates customer service data from a logistics company operating warehouses in **Germany, USA, Japan, China, and Taiwan**.  
-It analyzes customer inquiries, complaint trends, and satisfaction scores to support **policy improvement and service optimization**.
-
----
-
-## 📊 Project Goal
-To identify the most common customer issues in the past 6 months  
-and provide data-driven insights to help adjust future company policies.
+歡迎來到我的資料分析與 AI 作品集。  
+這裡收錄我在 **商業分析、Power BI、SQL 與客戶體驗（CX）優化** 相關的專案。  
+每個專案都包含可互動的儀表板、數據集與 SQL 查詢示例。
 
 ---
 
-## 🧠 Dataset Overview
-**Fields included:**
-| Column | Description |
-|--------|--------------|
-| Date | Inquiry record date |
-| Warehouse | Warehouse location (DE / US / JP / CN / TW) |
-| Category | Main issue type (Product / Order / Storage / Others) |
-| Subcategory | Detailed issue (e.g., damaged item, customs issue, delayed shipment) |
-| Agent | Customer service staff name |
-| Handling Time (min) | Time to resolve the issue |
-| Satisfaction | Customer satisfaction rating (1–5) |
-| Escalated | Whether escalated to supervisor (Yes/No) |
+## 🧭 專案一：物流客服問題分析  
+**Project 01: Logistics Customer Service Analysis**
 
-> 💡 Data volume suggestion: 3,000–10,000 rows  
-> You can use Excel or Python (faker library) to simulate data.
+📊 **Power BI 儀表板展示 | Dashboard Showcase**  
+本專案以物流客服資料為基礎，建立一份互動式 Power BI 儀表板，  
+用以分析客服案件的主要問題類別、平均處理時間與客戶滿意度。
+
+👉 [🔗 點此查看完整報表（Customer_Service_Dashboard.pdf）](./01_Logistics_CX_Analysis/Customer_Service_Dashboard.pdf)
 
 ---
 
-## 📈 Analysis Plan
+### 📈 分析指標（Analysis Metrics）
 
-| Step | Objective | Tool |
-|------|------------|------|
-| 1 | Clean and format data | Excel / SQL |
-| 2 | Group issues by category | SQL GROUP BY |
-| 3 | Calculate average satisfaction per category | SQL / Power BI |
-| 4 | Visualize issue distribution | Power BI |
-| 5 | Suggest operational improvements | Report summary |
-
----
-
-## 📋 Example Insights
-- **Order-related issues** make up 40% of all inquiries.  
-- **Storage-related complaints** have the lowest average satisfaction (3.6).  
-- **Germany and Japan warehouses** show higher escalation rates.  
+| 中文指標 | 英文名稱 | 說明 |
+|-----------|------------|------|
+| 問題類別佔比 | Category Distribution | 顯示各問題類型（訂單、商品、倉儲、其他）的比例。 |
+| 平均處理時間 | Average Handling Time | 分析客服處理案件所需時間的平均值（分鐘）。 |
+| 總客服案件數 | Total Tickets | 全期間客服紀錄總數。 |
+| 平均滿意度 | Average Satisfaction | 以 1–5 分計算，呈現整體與各類別滿意度比較。 |
 
 ---
 
-## 🧭 Business Recommendations
-1. Establish **AI FAQ chatbot** for recurring product questions.  
-2. Improve **warehouse communication SOP** for international transfers.  
-3. Add **auto-notification system** for delayed or rerouted packages.  
-4. Provide **training for high-escalation agents** to improve efficiency.
+### 🧠 洞察與發現（Key Insights）
+
+- 🟥 **訂單類**問題佔 40% 以上，為主要客服來源。  
+- ⏱️ 平均處理時間為 **15.8 分鐘**，仍有優化空間。  
+- ⭐ 整體滿意度為 **3.9 分**，其中「商品」類表現最佳（4.2 分）。  
+- 🧩 建議：強化訂單追蹤與客訴回覆流程，以縮短處理時長並提升評分。
 
 ---
 
-## 🧰 Tools Used
-- **SQL** for data aggregation  
-- **Power BI** for visualization  
-- **Excel** for dataset preparation  
-- **Markdown** for documentation
+### 🧰 使用技術（Tools & Skills）
+
+- Power BI Desktop（視覺化與 DAX 計算）
+- SQL（資料清理與查詢）
+- CSV 檔處理（Dataset Preparation）
+- 資料視覺化設計（Data Visualization Design）
 
 ---
 
-> 📁 Files in this folder:
-> - `dataset_logistics_FAQ.csv` ← mock dataset (to be uploaded)
-> - `logistics_analysis.sql` ← SQL queries
-> - `powerbi_dashboard.pbix` ← Power BI dashboard file
+### 📁 專案結構（Project Structure）
+
+
