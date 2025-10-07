@@ -13,7 +13,7 @@
 本專案以物流客服資料為基礎，建立一份互動式 Power BI 儀表板，  
 用以分析客服案件的主要問題類別、平均處理時間與客戶滿意度。
 
-👉 [🔗 點此查看完整報表（Customer_Service_Dashboard.pdf）](./01_Logistics_CX_Analysis/Customer_Service_Dashboard.pdf)
+📎 [點此查看完整報表（Customer_Service_Dashboard.pdf）](./Customer_Service_Dashboard.pdf)
 
 ---
 
